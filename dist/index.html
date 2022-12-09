@@ -1,45 +1,111 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To-Do List</title>
-  <script defer src="main.6a76e69b8d0e12e27ec9.js"></script></head>
-  <body>
-    <main>
-      <div class="container">
-        <div class="input-container">
-          <p>Todays to do</p>
-          <div>
-            <form action="#">
-              <input
-                id="todo-input"
-                type="text"
-                placeholder="Add to your list"
-                required
-              />
-              <button type="submit" id="addBtn">
-                <img
-                  class="returnImg"
-                  id="returnImg"
-                  src="./assets/return.svg"
-                  alt="returnImg"
-                />
-              </button>
-            </form>
-          </div>
-
-          <div class="to-do-list" id="to-do-container">
-            <table>
-              <thead></thead>
-              <tbody class="tbody" id="tbody"></tbody>
-            </table>
-            <button type="button" id="completedBtn" class="completedBtn">
-              Clear all completed.
-            </button>
-          </div>
-        </div>
-      </div>
-    </main>
-  </body>
-</html>
+<head><script defer src="main.8039f9a73569c21e239c.js"></script></head>Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module not found: Error: Can't resolve './src/assets/return.svg' in 'F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\Te  stJavascriptCleanCode-TODOLIST\src'
+  ModuleNotFoundError: Module not found: Error: Can't resolve './src/assets/return.svg' in 'F:\Microverse\Module2-JSandNetworking\Rep  eatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\src'
+      at F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modules\webpack\lib\Compil  ation.js:2016:28
+      at F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modules\webpack\lib\Normal  ModuleFactory.js:798:13
+      at eval (eval at create (F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modu  les\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modules\webpack\lib\Normal  ModuleFactory.js:270:22
+      at eval (eval at create (F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modu  les\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modules\webpack\lib\Normal  ModuleFactory.js:434:22
+      at F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modules\webpack\lib\Normal  ModuleFactory.js:116:11
+      at F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modules\webpack\lib\Normal  ModuleFactory.js:670:25
+      at F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modules\webpack\lib\Normal  ModuleFactory.js:855:8
+      at F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modules\webpack\lib\Normal  ModuleFactory.js:975:5
+  Module not found: Error: Can't resolve './src/assets/kebab.svg' in 'F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\Tes  tJavascriptCleanCode-TODOLIST\src'
+  ModuleNotFoundError: Module not found: Error: Can't resolve './src/assets/kebab.svg' in 'F:\Microverse\Module2-JSandNetworking\Repe  atedModule2\Week2\TestJavascriptCleanCode-TODOLIST\src'
+      at F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modules\webpack\lib\Compil  ation.js:2016:28
+      at F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modules\webpack\lib\Normal  ModuleFactory.js:798:13
+      at eval (eval at create (F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modu  les\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modules\webpack\lib\Normal  ModuleFactory.js:270:22
+      at eval (eval at create (F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modu  les\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modules\webpack\lib\Normal  ModuleFactory.js:434:22
+      at F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modules\webpack\lib\Normal  ModuleFactory.js:116:11
+      at F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modules\webpack\lib\Normal  ModuleFactory.js:670:25
+      at F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modules\webpack\lib\Normal  ModuleFactory.js:855:8
+      at F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\node_modules\webpack\lib\Normal  ModuleFactory.js:975:5
+  
+  - Compilation.js:2016 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/Compilation.js:2016:28
+  
+  - NormalModuleFactory.js:798 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/NormalModuleFactory.js:798:13
+  
+  
+  - NormalModuleFactory.js:270 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/NormalModuleFactory.js:270:22
+  
+  
+  - NormalModuleFactory.js:434 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/NormalModuleFactory.js:434:22
+  
+  - NormalModuleFactory.js:116 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/NormalModuleFactory.js:116:11
+  
+  - NormalModuleFactory.js:670 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/NormalModuleFactory.js:670:25
+  
+  - NormalModuleFactory.js:855 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/NormalModuleFactory.js:855:8
+  
+  - NormalModuleFactory.js:975 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/NormalModuleFactory.js:975:5
+  
+  - Module not found: Error: Can't resolve './src/assets/kebab.svg' in 'F:\Microverse\Module2-JSandNetworking\RepeatedModule2\Week2\T    estJavascriptCleanCode-TODOLIST\src'
+  
+  - ModuleNotFoundError: Module not found: Error: Can't resolve './src/assets/kebab.svg' in 'F:\Microverse\Module2-JSandNetworking\Re    peatedModule2\Week2\TestJavascriptCleanCode-TODOLIST\src'
+  
+  - Compilation.js:2016 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/Compilation.js:2016:28
+  
+  - NormalModuleFactory.js:798 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/NormalModuleFactory.js:798:13
+  
+  
+  - NormalModuleFactory.js:270 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/NormalModuleFactory.js:270:22
+  
+  
+  - NormalModuleFactory.js:434 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/NormalModuleFactory.js:434:22
+  
+  - NormalModuleFactory.js:116 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/NormalModuleFactory.js:116:11
+  
+  - NormalModuleFactory.js:670 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/NormalModuleFactory.js:670:25
+  
+  - NormalModuleFactory.js:855 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/NormalModuleFactory.js:855:8
+  
+  - NormalModuleFactory.js:975 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/NormalModuleFactory.js:975:5
+  
+  - child-compiler.js:169 
+    [TestJavascriptCleanCode-TODOLIST]/[html-webpack-plugin]/lib/child-compiler.js:169:18
+  
+  - Compiler.js:551 finalCallback
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/Compiler.js:551:5
+  
+  - Compiler.js:577 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/Compiler.js:577:11
+  
+  - Compiler.js:1196 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/Compiler.js:1196:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [TestJavascriptCleanCode-TODOLIST]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1192 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/Compiler.js:1192:33
+  
+  - Compilation.js:2787 finalCallback
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/Compilation.js:2787:11
+  
+  - Compilation.js:3092 
+    [TestJavascriptCleanCode-TODOLIST]/[webpack]/lib/Compilation.js:3092:11
+  
+  
+</pre>
